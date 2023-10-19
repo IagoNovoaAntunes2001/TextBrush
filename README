@@ -1,0 +1,19 @@
+TextBrush is an innovative and dynamic text drawing tool that allows users to create artistic and customized text compositions on a canvas.
+The project leverages the power of Kotlin and Android to provide a user-friendly interface for drawing, designing, and interacting with text in creative ways.
+
+Key Features:
+
+Text Drawing: Users can draw text on the canvas by simply tapping on the screen. The text is added in a visually appealing and interactive manner.
+
+Customization: TextBrush offers a range of customization options. Users can dynamically change the font size, adjust the spacing between letters,
+and even modify the rotation angle of the text. This flexibility empowers users to create unique and expressive text compositions.
+
+Undo Functionality: Mistakes can happen, but TextBrush provides an undo button to erase the last drawn segment. This feature ensures a seamless and
+frustration-free user experience.
+
+Image Integration: The canvas can also include images that fill the screen, making it an even more versatile platform for creative expression.
+
+Text Movement: Users can interact with the drawn text, moving it around the canvas to find the perfect spot for their artistic creation.
+
+TextBrush not only demonstrates the technical proficiency of working with Android and Kotlin but also highlights the importance of user experience
+and visual design. It's an excellent tool for artists, designers, and anyone who wants to add a personal touch to their digital creations.

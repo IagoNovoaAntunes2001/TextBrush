@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TextBrush</string>
+    <string name="change_font_size">Change Font Size</string>
+    <string name="undo">Undo</string>
+    <string name="font_size">Font Size</string>
+    <string name="font_size_image_button">Font size image button</string>
+    <string name="undo_button">Undo button</string>
+    <string name="spacing_button">Spacing Button</string>
+    <string name="rotation_button">Rotation Button</string>
+</resources>

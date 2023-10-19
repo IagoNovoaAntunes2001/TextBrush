@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.textbrush.ui.utils.CustomCanvasView
+        android:id="@+id/canvasView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/fontButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15dp"
+        android:layout_marginEnd="@dimen/_15dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/font_size_image_button"
+        android:src="@drawable/baseline_format_size_24"
+        android:text="@string/change_font_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/spaceButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5dp"
+        android:layout_marginEnd="@dimen/_15dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/spacing_button"
+        android:src="@drawable/baseline_format_line_spacing_24"
+        android:text="@string/change_font_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fontButton" />
+
+    <ImageButton
+        android:id="@+id/rotationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15dp"
+        android:layout_marginEnd="@dimen/_15dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/rotation_button"
+        android:src="@drawable/baseline_text_rotation_angledown_24"
+        android:text="@string/rotation_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spaceButton" />
+
+    <ImageButton
+        android:id="@+id/undoButton"
+        android:layout_width="@dimen/_0dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_5dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/undo_button"
+        android:src="@drawable/baseline_undo_24"
+        android:text="@string/undo"
+        app:layout_constraintEnd_toEndOf="@+id/rotationButton"
+        app:layout_constraintTop_toBottomOf="@+id/rotationButton" />
+
+    <EditText
+        android:id="@+id/textInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/_15dp"
+        android:background="@android:drawable/edit_text"
+        android:inputType="number"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
